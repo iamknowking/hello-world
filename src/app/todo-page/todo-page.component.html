@@ -1,0 +1,15 @@
+<p class="creatorName">WELCOME</p>
+<div class="formContainner">
+    <form [formGroup]="todoGroup">
+        <input class="firstPageFieldsStyle" type="text" id="taskHere" name="taskHere" formControlName="taskHere" placeholder="Enter Your Task Here">
+        <button id="subBtn" class="btn-success submitBtnStyle" (click)="submitTask()">ADD TASK</button>
+    </form>
+</div>
+<div class="formContainnerForList">
+    <p class="taskTitleHead">Your task list</p>
+    <ul>
+        <li *ngFor="let alert of contentsList">{{ alert }}</li>
+    </ul>
+    <p class="creatorbuildUp">Click the button to get the strategy to finish all your tasks</p>
+    <button id="subBtn" class="btn-success submitBtnStyle" (click)="finalizeList()">TASK SUMMARY</button>
+</div>

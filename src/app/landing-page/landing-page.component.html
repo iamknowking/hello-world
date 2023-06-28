@@ -1,0 +1,13 @@
+<p class="creatorbuildUp">This is created by</p>
+<p class="creatorName">THERIYADU</p>
+<div class="formContainner">
+  <form [formGroup]="loginForm" class="formAreaStyle">
+    <p class="alignFieldsCenter">
+      <input class="firstPageFieldsStyle" type="text" id="email" name="email" formControlName="email" placeholder="Enter Username">
+    </p>
+    <p class="alignFieldsCenter">
+      <input class="firstPageFieldsStyle" type="text" id="password" name="password" formControlName="password" placeholder="Enter password">
+    </p>
+    <button id="subBtn" class="btn-success submitBtnStyle" (click)="loginUser()">Submit</button>
+  </form>
+</div>

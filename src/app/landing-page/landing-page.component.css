@@ -1,0 +1,53 @@
+.formContainner{
+    width: 40%;
+    margin: auto;
+    background-color: rgb(201, 198, 198);
+    padding: 40px;
+    border-radius: 10px;
+  }
+  .alignFieldsCenter{
+    display: flex;
+    justify-content: center;
+  }
+  .creatorbuildUp{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10%;
+  }
+  .creatorName{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .submitBtnStyle{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: transparent;
+    padding: 5px 20px;
+    background-color: rgb(63, 153, 63);
+    color: white;
+  }
+  .firstPageFieldsStyle{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: none;
+    text-shadow: none;
+    padding: 0px 20px 0px 20px;
+    height: 30px;
+    background-color: white;
+    outline: transparent;
+    border: transparent;
+  }
+  .formAreaStyle{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }

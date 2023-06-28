@@ -1,0 +1,15 @@
+.solcontent{
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+}
+.travelAgainBtnStyle{
+    min-height: 44px;
+    border-radius: 10px;
+    border: transparent;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
